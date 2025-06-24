@@ -1,8 +1,11 @@
+import Title from './components/Title';
+import Form from './components/Form';
+
 const App = () => {
     return (
     <div>
-        <h1 className="test">こんにちは</h1>
-        <h2>さようなら</h2>
+        <Title />
+        <Form />
     </div>
     );
 }
